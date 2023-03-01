@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script url="script.js"></script>
+    <script src="script.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,16 @@
 
         <div class="wrapper">
             <div class="item">
-                <h1>Dadjoke generator</h1>
-                <p id="joke"></p>
-                <button id="button" type="submit">Generera</button>
+                <h1>Joke generator</h1>
+                <div class="flex">
+                <p> Allow dark humor?</p>
+                <input id ="checkbox" type="checkbox">
+            </div>
+                <div class="pun">
+                <p class="joke" id="joke"></p>
+                <p onclick="showJoke()" class ="joke joke2" id="joke2"></p>
+            </div>
+                <button onclick="getJokeFunc()" id="button" class="button"type="submit">Generera</button>
             </div>
         </div>
     </div>
