@@ -9,6 +9,7 @@
         <input type="checkbox" />
         <span class="slider round"></span>
       </label>
+      <p>Dark mode?</p>
     </div>
   </div>
 </template>
@@ -17,6 +18,13 @@
 .header-wrapper {
   background-color: var(--color1);
   height: fit-content;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
 }
 .header-wrapper {
   display: flex;
