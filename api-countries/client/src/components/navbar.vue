@@ -16,7 +16,7 @@
 
 <style scoped>
 .header-wrapper {
-  background-color: var(--color1);
+  background-color: var(--color2);
   height: fit-content;
 }
 
